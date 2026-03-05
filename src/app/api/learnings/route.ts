@@ -3,6 +3,8 @@ import { learnings } from '@/db/schema';
 import { like, eq, and, sql } from 'drizzle-orm';
 import { NextRequest, NextResponse } from 'next/server';
 
+export const dynamic = 'force-dynamic';
+
 export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams;
