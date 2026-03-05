@@ -28,6 +28,7 @@
     "@types/jest": "^29.5.11",
     "@types/markdown-it": "^12.2.3",
     "@types/node": "^20",
+    "@types/react": "^19",
     "drizzle-kit": "^0.31.9",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
