@@ -14,8 +14,8 @@ export async function GET() {
       .groupBy(learnings.category);
 
     const categories = result
-      .map((r) => r.category)
-      .filter((c) => c !== null && c !== undefined && c !== '')
+      .map((r: any) => r.category)
+      .filter((c: any) => c !== null && c !== undefined && c !== '')
       .sort();
 
     return NextResponse.json({ categories });

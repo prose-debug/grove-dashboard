@@ -22,14 +22,14 @@ export async function GET(request: NextRequest) {
     if (q) {
       const queryLower = q.toLowerCase();
       results = results.filter(
-        (l) =>
+        (l: any) =>
           (l.title?.toLowerCase().includes(queryLower) || false) ||
           (l.summary?.toLowerCase().includes(queryLower) || false)
       );
     }
 
     if (category) {
-      results = results.filter((l) => l.category === category);
+      results = results.filter((l: any) => l.category === category);
     }
 
     // Apply pagination
