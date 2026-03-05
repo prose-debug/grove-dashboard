@@ -162,9 +162,9 @@ export default async function MontereyBayPage() {
   const montereyData = await getMontereyData();
   const montereyMetrics = getMontereyMetrics(montereyData?.sst);
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 via-white to-teal-50">
+    <div className="min-h-screen bg-gradient-to-b from-slate-950 via-blue-950 to-slate-950">
       {/* HERO SECTION */}
-      <div className="bg-gradient-to-r from-blue-600 to-teal-600 text-white py-16 px-4">
+      <div className="bg-gradient-to-r from-cyan-500 via-blue-600 to-emerald-500 text-white py-20 px-4 shadow-2xl">
         <div className="container mx-auto max-w-6xl">
           <div className="flex items-center gap-6 mb-6">
             <div className="text-7xl">🦭</div>
@@ -183,48 +183,48 @@ export default async function MontereyBayPage() {
 
       {/* SUCCESS STORY SECTION - REDESIGNED */}
       <div className="mb-16">
-        <h2 className="text-4xl font-bold text-slate-900 mb-8 text-center">🌊 Why Monterey Bay Matters</h2>
-        <p className="text-center text-slate-600 mb-10 text-lg">Three transformative proof points of how ocean healing actually works</p>
+        <h2 className="text-5xl font-bold text-white mb-4 text-center drop-shadow-lg">🌊 Why Monterey Bay Matters</h2>
+        <p className="text-center text-cyan-100 mb-12 text-xl font-medium">Three transformative proof points of how ocean healing actually works</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Card 1: Sea Otters */}
-          <div className="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl p-8 border-2 border-emerald-300 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105">
-            <div className="text-6xl mb-6 text-center">🦦</div>
-            <h3 className="text-2xl font-bold text-emerald-900 mb-3 text-center">Sea Otters</h3>
-            <div className="text-5xl font-black text-emerald-600 mb-4 text-center">3,200</div>
-            <p className="text-center text-emerald-900 font-semibold mb-3">Recovered from near-extinction</p>
-            <p className="text-center text-emerald-800 text-sm leading-relaxed">
+          <div className="bg-gradient-to-br from-emerald-400 to-teal-500 rounded-3xl p-10 border-0 shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-110 hover:-rotate-1">
+            <div className="text-8xl mb-6 text-center drop-shadow-lg">🦦</div>
+            <h3 className="text-3xl font-bold text-white mb-3 text-center drop-shadow-md">Sea Otters</h3>
+            <div className="text-7xl font-black text-white mb-4 text-center drop-shadow-lg">3,200</div>
+            <p className="text-center text-white font-bold mb-3 text-lg drop-shadow-md">Recovered from near-extinction</p>
+            <p className="text-center text-white text-sm leading-relaxed font-medium drop-shadow-sm">
               Each otter eats 20+ lbs of sea urchins daily. When you remove the root cause (overpopulation), the entire ecosystem heals naturally. Not rescue. System repair.
             </p>
-            <div className="mt-6 pt-4 border-t border-emerald-200">
-              <p className="text-xs text-emerald-700 text-center font-semibold">→ Proof that healing works</p>
+            <div className="mt-6 pt-4 border-t border-white border-opacity-40">
+              <p className="text-xs text-white text-center font-bold drop-shadow-sm">→ Proof that healing works</p>
             </div>
           </div>
 
           {/* Card 2: Kelp Forests */}
-          <div className="bg-gradient-to-br from-cyan-50 to-blue-50 rounded-2xl p-8 border-2 border-blue-300 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105">
-            <div className="text-6xl mb-6 text-center">🪴</div>
-            <h3 className="text-2xl font-bold text-blue-900 mb-3 text-center">Kelp Forests</h3>
-            <div className="text-5xl font-black text-blue-600 mb-4 text-center">78%</div>
-            <p className="text-center text-blue-900 font-semibold mb-3">Ecosystem coverage recovered</p>
-            <p className="text-center text-blue-800 text-sm leading-relaxed">
+          <div className="bg-gradient-to-br from-cyan-400 to-blue-500 rounded-3xl p-10 border-0 shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-110 hover:rotate-1">
+            <div className="text-8xl mb-6 text-center drop-shadow-lg">🪴</div>
+            <h3 className="text-3xl font-bold text-white mb-3 text-center drop-shadow-md">Kelp Forests</h3>
+            <div className="text-7xl font-black text-white mb-4 text-center drop-shadow-lg">78%</div>
+            <p className="text-center text-white font-bold mb-3 text-lg drop-shadow-md">Ecosystem coverage recovered</p>
+            <p className="text-center text-white text-sm leading-relaxed font-medium drop-shadow-sm">
               Was dying from urchin overpopulation when sea otters disappeared. Now thriving again—but only because we restored the ecosystem instead of patching symptoms.
             </p>
-            <div className="mt-6 pt-4 border-t border-blue-200">
-              <p className="text-xs text-blue-700 text-center font-semibold">→ System healing in action</p>
+            <div className="mt-6 pt-4 border-t border-white border-opacity-40">
+              <p className="text-xs text-white text-center font-bold drop-shadow-sm">→ System healing in action</p>
             </div>
           </div>
 
           {/* Card 3: Years of Science */}
-          <div className="bg-gradient-to-br from-violet-50 to-purple-50 rounded-2xl p-8 border-2 border-purple-300 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105">
-            <div className="text-6xl mb-6 text-center">🔬</div>
-            <h3 className="text-2xl font-bold text-purple-900 mb-3 text-center">Science-Backed</h3>
-            <div className="text-5xl font-black text-purple-600 mb-4 text-center">40+</div>
-            <p className="text-center text-purple-900 font-semibold mb-3">Years proving systemic healing</p>
-            <p className="text-center text-purple-800 text-sm leading-relaxed">
+          <div className="bg-gradient-to-br from-purple-400 to-pink-500 rounded-3xl p-10 border-0 shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-110 hover:-rotate-1">
+            <div className="text-8xl mb-6 text-center drop-shadow-lg">🔬</div>
+            <h3 className="text-3xl font-bold text-white mb-3 text-center drop-shadow-md">Science-Backed</h3>
+            <div className="text-7xl font-black text-white mb-4 text-center drop-shadow-lg">40+</div>
+            <p className="text-center text-white font-bold mb-3 text-lg drop-shadow-md">Years proving systemic healing</p>
+            <p className="text-center text-white text-sm leading-relaxed font-medium drop-shadow-sm">
               Monterey Bay has documented every step. The science is clear. Ocean healing isn't hope—it's tested, repeatable, proven methodology.
             </p>
-            <div className="mt-6 pt-4 border-t border-purple-200">
-              <p className="text-xs text-purple-700 text-center font-semibold">→ Blueprint for global ocean work</p>
+            <div className="mt-6 pt-4 border-t border-white border-opacity-40">
+              <p className="text-xs text-white text-center font-bold drop-shadow-sm">→ Blueprint for global ocean work</p>
             </div>
           </div>
         </div>
