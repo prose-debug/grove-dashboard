@@ -1,0 +1,37 @@
+{
+  "institution": {
+    "name": "Monterey Bay Aquarium",
+    "tagline": "Coordinated Ocean Healing",
+    "logo": "🌊",
+    "logoUrl": "https://www.montereybayaquarium.org/",
+    "description": "40 years of proven ocean conservation science"
+  },
+  "colors": {
+    "primary": "#0369a1",
+    "primaryLight": "#0ea5e9",
+    "secondary": "#059669",
+    "secondaryLight": "#10b981",
+    "accent": "#f59e0b",
+    "accentLight": "#fbbf24",
+    "background": "#f8fafc",
+    "text": "#1e293b",
+    "textMuted": "#64748b"
+  },
+  "messaging": {
+    "heroTitle": "Ocean Commons Hub",
+    "heroSubtitle": "Real-time conservation data + interactive learning for global ocean healing",
+    "cta1": "View Ocean Health",
+    "cta2": "Join the Movement",
+    "footerCopy": "Monterey Bay Aquarium — Restoring Ocean Systems Since 1984"
+  },
+  "social": {
+    "twitter": "https://twitter.com/montereybayaq",
+    "instagram": "https://instagram.com/montereybayaq",
+    "facebook": "https://facebook.com/montereybayaquarium"
+  },
+  "contact": {
+    "email": "conservation@montereybayaquarium.org",
+    "phone": "+1-831-648-4800",
+    "website": "https://www.montereybayaquarium.org"
+  }
+}

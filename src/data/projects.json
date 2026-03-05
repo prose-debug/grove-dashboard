@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "title": "Sea Otter Recovery Program",
+    "description": "Recovering sea otter population from near-extinction to ecosystem engineer. Otters eat sea urchins, which allows kelp forests to thrive.",
+    "status": "thriving",
+    "metrics": {
+      "population": 2847,
+      "trend": "+15% annually"
+    },
+    "relatedLearning": 4691,
+    "learningTitle": "Systemic vs. Symptomatic Solutions",
+    "impact": "Each otter manages ~20 lbs of sea urchins daily = system healing"
+  },
+  {
+    "id": 2,
+    "title": "Kelp Forest Restoration",
+    "description": "Restoring giant kelp forests that were decimated by sea urchin populations. Kelp sequester carbon, provide habitat, and support food webs.",
+    "status": "recovering",
+    "metrics": {
+      "coverage": "78%",
+      "trend": "+12% annually"
+    },
+    "relatedLearning": 4692,
+    "learningTitle": "OTEC: Ocean Thermal Energy as Healing",
+    "impact": "1 acre of kelp = 10x carbon sequestration of terrestrial forest"
+  },
+  {
+    "id": 3,
+    "title": "Sustainable Fishing Partnership",
+    "description": "Working with local fisheries to implement sustainable practices that protect marine ecosystems while supporting livelihoods.",
+    "status": "active",
+    "metrics": {
+      "partners": 12,
+      "vessels": 89
+    },
+    "relatedLearning": 4690,
+    "learningTitle": "Ocean Justice Framework",
+    "impact": "Fair burden & benefit distribution in ocean conservation"
+  },
+  {
+    "id": 4,
+    "title": "Biodiversity Monitoring Network",
+    "description": "Real-time monitoring of ocean biodiversity using acoustic sensors, underwater cameras, and citizen science reports from divers.",
+    "status": "expanding",
+    "metrics": {
+      "sensors": 23,
+      "submissions": 1247
+    },
+    "relatedLearning": 4680,
+    "learningTitle": "Environmental Data Validation",
+    "impact": "Early detection of ecosystem changes enables rapid response"
+  },
+  {
+    "id": 5,
+    "title": "Ocean Acidification Research",
+    "description": "Measuring pH, carbonate saturation, and species responses to ocean acidification. Connecting local observations to global climate patterns.",
+    "status": "ongoing",
+    "metrics": {
+      "measurements": 8947,
+      "partners": 18
+    },
+    "relatedLearning": 1019,
+    "learningTitle": "Tikkun Olam: Repair of the World",
+    "impact": "Understanding root causes enables systemic solutions"
+  },
+  {
+    "id": 6,
+    "title": "Visitor Education & Engagement",
+    "description": "Converting 500K annual visitors into ocean advocates through interactive experiences, decision trees, citizen science participation, and sustained community involvement.",
+    "status": "launching",
+    "metrics": {
+      "annual_visitors": 500000,
+      "advocates_target": 50000
+    },
+    "relatedLearning": 1026,
+    "learningTitle": "Repair vs. Optimize",
+    "impact": "Transform visitors from observers to active ocean stewards"
+  }
+]

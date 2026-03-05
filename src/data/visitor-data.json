@@ -1,0 +1,49 @@
+{
+  "emailSubscribers": [
+    {
+      "id": "sub_001",
+      "email": "example@email.com",
+      "name": "Example Subscriber",
+      "timestamp": "2026-03-05T10:00:00Z",
+      "source": "newsletter-signup",
+      "tier": 1
+    },
+    {
+      "id": "sub_1772710071326",
+      "email": "test@montereybay.org",
+      "name": "Test User",
+      "timestamp": "2026-03-05T11:27:51.326Z",
+      "source": "dashboard-signup",
+      "tier": 1
+    },
+    {
+      "id": "sub_1772710814194",
+      "email": "test@monterey.org",
+      "name": "Test Visitor",
+      "timestamp": "2026-03-05T11:40:14.194Z",
+      "source": "dashboard-signup",
+      "tier": 1
+    }
+  ],
+  "analytics": {
+    "dashboardViews": 247,
+    "decisionTreeVisits": 84,
+    "emailSignups": 14,
+    "citizenScienceSubmissions": 5,
+    "learningsClicked": 34,
+    "conversionRates": {
+      "visitors_to_tier1": 0.024,
+      "tier1_to_tier2": 0.083,
+      "tier2_to_tier3": 0.05
+    }
+  },
+  "goals": {
+    "annual_visitors": 500000,
+    "year_1_tier1_advocates": 50000,
+    "year_1_tier2_community": 10000,
+    "year_1_tier3_leaders": 500,
+    "current_tier1_count": 249,
+    "current_tier2_count": 12,
+    "current_tier3_count": 2
+  }
+}

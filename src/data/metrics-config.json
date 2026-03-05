@@ -1,0 +1,97 @@
+{
+  "location": {
+    "name": "Monterey Bay, California",
+    "latitude": 36.6,
+    "longitude": -121.9
+  },
+  "metrics": [
+    {
+      "id": "sst",
+      "label": "Sea Surface Temperature",
+      "unit": "°C",
+      "enabled": true,
+      "description": "Real-time water temperature - optimal range for kelp is 10-17°C",
+      "icon": "🌡️",
+      "normalRange": [10, 17],
+      "warningThreshold": 18,
+      "order": 1
+    },
+    {
+      "id": "kelp_health",
+      "label": "Kelp Forest Coverage",
+      "unit": "%",
+      "enabled": true,
+      "description": "Giant kelp canopy coverage - recovering from urchin barrens",
+      "icon": "🪴",
+      "normalRange": [60, 100],
+      "warningThreshold": 50,
+      "order": 2
+    },
+    {
+      "id": "otter_population",
+      "label": "Sea Otter Population",
+      "unit": "individuals",
+      "enabled": true,
+      "description": "Count of sea otters - critical ecosystem engineer for kelp",
+      "icon": "🦦",
+      "normalRange": [2500, 3200],
+      "warningThreshold": 2200,
+      "order": 3
+    },
+    {
+      "id": "oxygen_level",
+      "label": "Dissolved Oxygen Level",
+      "unit": "%",
+      "enabled": true,
+      "description": "Oxygen saturation in water column - critical for marine life",
+      "icon": "💨",
+      "normalRange": [75, 100],
+      "warningThreshold": 60,
+      "order": 4
+    },
+    {
+      "id": "pH",
+      "label": "Water pH (Acidity)",
+      "unit": "pH",
+      "enabled": true,
+      "description": "Ocean acidification indicator - optimal: 8.0-8.3",
+      "icon": "⚗️",
+      "normalRange": [8.0, 8.3],
+      "warningThreshold": 7.9,
+      "order": 5
+    },
+    {
+      "id": "whale_sightings",
+      "label": "Marine Mammal Sightings",
+      "unit": "count",
+      "enabled": true,
+      "description": "Recent observations of whales, dolphins, seals - indicator of ecosystem health",
+      "icon": "🐋",
+      "normalRange": [15, 50],
+      "warningThreshold": 5,
+      "order": 6
+    },
+    {
+      "id": "visitor_engagement",
+      "label": "Visitor Ocean Advocates",
+      "unit": "people",
+      "enabled": true,
+      "description": "Cumulative visitors who committed to ocean action (Tier 1)",
+      "icon": "👥",
+      "normalRange": [1000, 50000],
+      "warningThreshold": 500,
+      "order": 7
+    },
+    {
+      "id": "citizen_science",
+      "label": "Citizen Science Submissions",
+      "unit": "submissions",
+      "enabled": true,
+      "description": "Community-contributed observations (otter sightings, photos, data)",
+      "icon": "📊",
+      "normalRange": [100, 1000],
+      "warningThreshold": 50,
+      "order": 8
+    }
+  ]
+}
